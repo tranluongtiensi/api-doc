@@ -1,0 +1,35 @@
+{
+  "name": "TATUROSHOP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "genAPIDoc": "apidoc -i routers/ -o public/docs/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.5",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20"
+  },
+  "apidoc": {
+    "title": "TATUROSHOP API DOCS",
+    "version": "1.0.0",
+    "url": "http://localhost:8800/docs"
+  },
+  "devDependencies": {
+    "grunt-apidoc": "^0.11.0",
+    "gulp": "^4.0.2",
+    "gulp-apidoc": "^0.2.8"
+  }
+}
